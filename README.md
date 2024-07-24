@@ -1,4 +1,4 @@
-# Automated Incident Reposne System
+# Automated Incident Response System
 
 This project is an automated incident response system that detects, analyzes, and responds to security incidents in real-time.
 
@@ -20,7 +20,10 @@ This project is an automated incident response system that detects, analyzes, an
 2. **Create and activate a virtual environment:**
     ```sh
     python -m venv venv
+    # On Windows
     .\venv\Scripts\activate
+    # On macOS/Linux
+    source venv/bin/activate
     ```
 
 3. **Install dependencies:**
@@ -50,10 +53,13 @@ This project is an automated incident response system that detects, analyzes, an
     python app.py
     ```
 
+5. **Access the web interface:**
+   - Open your browser and go to `http://127.0.0.1:5001` (or the port specified in `app.py`).
+
 ## Contributing
 
-Feel free to contribute to this project by submitting pull requests or opening issues.
+Feel free to contribute to this project by submitting pull requests or opening issues. Please follow the coding standards and provide clear descriptions of any changes.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
